@@ -64,7 +64,7 @@ C'est par le biais des objets FileInputStream et FileOutputStream que nous allon
 - lire dans un fichier ;
 - écrire dans un fichier.
 
-Ces classes héritent des classes abstraitesInputStreametOutputStream, présentes dans le packagejava.io.
+Ces classes héritent des classes abstraites InputStream et OutputStream, présentes dans le packagejava.io.
 
 Comme vous l'avez sans doute deviné, il existe une hiérarchie de classes pour les traitementsinet une autre pour les traitementsout. Ne vous y trompez pas, les classes héritant d'InputStreamsont destinées à la lecture et les classes héritant d'OutputStreamse chargent de l'écriture !  
 

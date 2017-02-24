@@ -12,51 +12,51 @@
 ### Classes et héritage
 Créer une classe :
 ```java
-public class tortor {
+public class Coureur {
 
-  //  Stocke le nom de notre station
-  String spacetown;
-  //Stocke le nom du la nation de notre station
-  String nationspacetown;
-  //Stocke le nombre de vie extraterrestre
-  int extraterreste;
+  //Stocke le nom du coureur
+  String nomCoureur;
+  //Stocke le nom du pays de naissance
+  String nomPaysNaissance;
+  //Stocke l'age du coureur
+  int age;
 
   //Constructeur par défaut
-  public tortor(){
-    System.out.println("Création d'une ville !");          
-    spacetown = "Inconnu";
-    nationspacetown = "Inconnu";
-    extraterrestre = 0;
+  public Coureur(){
+    System.out.println("Création d'un coureur !");          
+    nomCourreur = "Inconnu";
+    nomPaysNaissance = "Inconnu";
+    age = 0;
   }
   
          
 }
 ```
-Maintenant on peut créer une instance de la classe Ville dans le main :
+Maintenant on peut créer une instance de la classe Coureur dans le main :
 
 ```Java
-public class Appolo 1{ 
+public class Sdz1{ 
   public static void main(String[] args){  
-   tortor Appolo = newtortor(); 
+    Coureur c = new Coureur(); 
   } 
 }
 ```
 
     Mais si on veut attribuer un nom données à la ville ? 
     
-On peut mettre un constructeur avec des arguments (nomVille, nomPays, etc...), comme ceci :
+On peut mettre un constructeur avec des arguments (nomCoureur, nomPaysNaissance, etc...), comme ceci :
 
 
 ```Java
 //Constructeur avec paramètres
   //J'ai ajouté un « p » en première lettre des paramètres.
   //Ce n'est pas une convention, mais ça peut être un bon moyen de les repérer.
-  public tortor(String pNom, int pNbre, String pPays)
+  public Coureur(String pNom, int pAge, String pPays)
   {
-    System.out.println("Création d'une ville avec des paramètres !");
-    spacetown = pville;
-    nationspacetown = pPays;
-    extraterrestre = pNbre;
+    System.out.println("Création d'un coureur avec des paramètres !");
+    nomCoureur = pNom;
+    nomPaysNaissance = pPays;
+    age = pAge;
   } 
 ```
 

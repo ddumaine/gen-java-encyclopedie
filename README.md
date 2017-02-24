@@ -80,6 +80,10 @@ Il existe 3 modificateurs qui peuvent être utilisés pour définir les attribut
 
 Ces modificateurs d'accès sont mutuellement exclusifs.
 
+
+Source : https://www.jmdoudoux.fr/java/dej/chap-poo.htm#poo-3
+
+
 ### Designs Patterns
 
 Les design patterns ou modèles de conception décrivent des organisations pratiques de classes objets. Ces organisations résultent souvent d'une conception empirique, le concepteur objet tente de faciliter la réutilisation et la maintenance du code. On peut donc concevoir un modèle d'application comme une forme d'organisation transposable à plusieurs applications. Ces systèmes peuvent apparaître complèxes aux débutants voire inutiles, il est pourtant très important d'en connaître plusieurs et de les appliquer systématiquement (dans les cas reconnus comme pouvant évoluer). L'architecte objet se construit petit à petit un "panier" de modèles.

@@ -117,6 +117,69 @@ Les Design Patterns représentent un espace très riche de composition ou de sim
 
 ### Swing
 
+
+Développement d'interfaces graphiques :
+
+Classes Jframe :
+  exemple de code :
+  
+  ------------------------------------------
+  import javax.swing.*;
+   
+  public class TestJFrame1 { 
+    public static void main(String argv[]) 
+      JFrame f = new JFrame("ma fenetre");
+      f.setSize(300,100);
+      f.setVisible(true);
+    }
+  }
+  -----------------------------------------
+  
+  
+  
+  Utilisation du GetContentPane avec ajout d'un bouton:
+  
+  ----------------------------------------
+  import javax.swing.*;
+
+  public class TestJFrame2 {
+     public static void main(String argv[]) {
+
+       JFrame f = new JFrame("ma fenetre");
+       f.setSize(300,100);
+       JButton b =new JButton("Mon bouton");
+       f.getContentPane().add(b);
+       f.setVisible(true);
+    }
+  }
+  -----------------------------------------
+  
+  
+  
+  Création d'un menu : 
+  
+  -----------------------------------------
+  import javax.swing.*;
+  import java.awt.*;
+
+
+public class TestJFrame6 {
+    public static void main(String argv[]) { 
+
+       JFrame f = new JFrame("ma fenetre");
+       f.setSize(300,100);
+       JButton b =new JButton("Mon bouton");
+       f.getContentPane().add(b);
+       JMenuBar menuBar = new JMenuBar();
+       f.setJMenuBar(menuBar);
+       JMenu menu = new JMenu("Fichier");
+       menu.add(menuItem);
+       menuBar.add(menu);
+       f.setVisible(true);
+
+   }
+}
+
 ### Threads
 Pour éviter toute ambiguïté, il est important de préciser qu'un thread n'est pas un processus. En effet, les processus vivent dans des espaces virtuels isolés alors que les threads sont des traitements qui vivent ensemble au sein d'un même processus.
 

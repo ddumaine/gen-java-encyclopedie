@@ -9,6 +9,8 @@
 
 ### L'objet (classes et héritage)
 
+Bonjour les amis !
+
 ### Visibilité des objets, classes et attributs
 
 ### Designs Patterns

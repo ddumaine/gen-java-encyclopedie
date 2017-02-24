@@ -13,6 +13,8 @@ Bonjour les amis !
 
 ### Visibilité des objets, classes et attributs
 
+Comment ça va ?
+
 ### Designs Patterns
 
 ### Swing

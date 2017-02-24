@@ -188,7 +188,7 @@ de l'acronyme Java DataBase Conectivity.
 
 JDBC est une interface de programmation qui permet au langage Java d'accéder à des bases de données par l'intermédiaire du langage SQL. Comme des interpréteurs Java sont disponibles sur la plupart des postes de travail, cela permet d'écrire des applications indépendantes des bases de données. 
 
-extrait de http://www.journaldunet.com
+extrait de http://www.journaldunet.com/encyclopedie/definition/340/34/20/java_database_connectivity.shtml
 
 
 - Connexion à la base de données
@@ -216,7 +216,7 @@ Le nom de la base de données (ici base_de_donnees) étant celle déclarée dans
 jdbc:sousprotocole:nom
 ```
 
-extrait de http://www.besoindaide.com 
+extrait de http://www.besoindaide.com/ccm/jdbc/jdbcconnect.htm 
 
 ### Fichiers
 ````Java
